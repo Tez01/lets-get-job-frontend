@@ -1,14 +1,14 @@
 import "../styles/Card.css";
-const Card = ({ buttonName }) => {
+const Card = ({ buttonName, buttonHeight, buttonWidth }) => {
   return (
-    <div>
+    <>
       <button
         className="button_like_card primary_background"
-        style={{ "--h": "100px" }}
+        style={{ "--h": buttonHeight, "--w": buttonWidth }}
       >
         {buttonName}
       </button>
-    </div>
+    </>
   );
 };
 

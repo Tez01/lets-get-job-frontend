@@ -2,8 +2,11 @@
     display:grid;
     height: 100vh;
     width: 100vw;
-    grid-template-rows: 2fr 7fr 2fr;
+    grid-template-rows: 1fr 7fr 1fr;
     background-color: #151C35;
+    min-width: 300px;
+    min-height: 700px; 
+    
 }
 .primary_text_color{
     color:#ffffff
@@ -18,12 +21,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .Home-Container--2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap:wrap;
 }
 .Home-Container--3{
     background-color: green;
+}
+
+.title{
+    min-width: 200px;
+    font-size: 2rem;
 }
