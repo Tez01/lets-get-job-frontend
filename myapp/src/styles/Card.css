@@ -1,8 +1,15 @@
 .button_like_card{
     height: var(--h);
     width: var(--w);
-    font-size: 1rem;
+    font-size: 1.3em;
     overflow: hidden;
     text-overflow: ellipsis;
-    min-width: 200px;
+    min-width: 15rem;
+    border-radius: 25% 15%;
+    border: 0;
+    padding: 1%;
+}
+
+.button_like_card:hover{
+    
 }

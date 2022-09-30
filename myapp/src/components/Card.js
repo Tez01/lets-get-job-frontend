@@ -1,9 +1,9 @@
 import "../styles/Card.css";
-const Card = ({ buttonName, buttonHeight, buttonWidth }) => {
+const Card = ({ buttonName, buttonHeight, buttonWidth, imageSource }) => {
   return (
     <>
       <button
-        className="button_like_card primary_background"
+        className="button_like_card secondary_color primary_text_color primary_font"
         style={{ "--h": buttonHeight, "--w": buttonWidth }}
       >
         {buttonName}
