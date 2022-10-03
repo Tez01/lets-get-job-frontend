@@ -36,7 +36,7 @@
     
 }
 .Home-Container--1 > *{
-    flex-grow: 2;
+    flex-grow: 1;
 }
 .Home-Container--2{
     display: flex;
@@ -53,12 +53,7 @@
 
 .title{
     min-width: 200px;
-    font-size: 8vw;
+    font-size: clamp(2rem, 5vw, 4rem)
     
 }
 
-@media (min-width: 500px){
-    .title{
-        font-size:5.5vw;
-    }
-}

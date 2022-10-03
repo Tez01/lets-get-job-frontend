@@ -1,4 +1,4 @@
-import "../styles/Card.css";
+import "../../styles/Home/Card.css";
 const Card = ({ buttonName, buttonHeight, buttonWidth, imageSource }) => {
   return (
     <>

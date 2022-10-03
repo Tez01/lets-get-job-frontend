@@ -1,4 +1,4 @@
-import "../styles/Home.css";
+import "../../styles/Home/Home.css";
 import Card from "./Card.js";
 const Home = () => {
   return (
