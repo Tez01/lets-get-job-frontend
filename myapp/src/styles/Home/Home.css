@@ -6,17 +6,19 @@
     background-color: #151C35;
     /* min-width: 400px; */
     min-height: 700px; 
-    
+    --primary_color: black;
+    --secondary_color: #CF5C36;
+    --tertiary_color: #00848c;
 }
 
 .primary_color{
-    background-color: black;
+    background-color: var(--primary_color);
 }
 .secondary_color{
-    background-color: #CF5C36;
+    background-color:  var(--secondary_color);
 }
 .tertiary_color{
-    background-color: #00848c;
+    background-color: var(--tertiary_color);
 }
 .primary_text_color{
     color:white;
