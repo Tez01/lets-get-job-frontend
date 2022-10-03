@@ -1,4 +1,5 @@
 import "../../styles/Home/Card.css";
+import React from "react";
 const Card = ({ buttonName, buttonHeight, buttonWidth, imageSource }) => {
   return (
     <>

@@ -1,4 +1,5 @@
 import "../../styles/Home/Home.css";
+import React from "react";
 import Card from "./Card.js";
 const Home = () => {
   return (
