@@ -1,7 +1,13 @@
 import "../../styles/Home/Home.css";
 import React from "react";
 import Card from "./Card.js";
+import { Link } from "react-router-dom";
+
 const Home = () => {
+  const TrackerClicked = () => {
+    console.log("Tracker button clicked");
+  };
+
   return (
     <div className="Home primary_color">
       <div className="Home-Container--1 primary_text_color primary_font title">
@@ -18,6 +24,7 @@ const Home = () => {
           buttonName="APPLICATION TRACKER"
           buttonHeight="20%"
           buttonWidth="20%"
+          clickHandler={TrackerClicked}
         />
 
         <Card
@@ -27,10 +34,10 @@ const Home = () => {
         />
       </div>
       <div className="Home-Container--3 tertiary_color">
-        <a href="https://www.google.com">Contact</a>
+        <Link to="Home">Contact</Link>
         <a>About</a>
 
-        <a href="https://www.linkedin.com/in/tejpartap/">LinkedIn</a>
+        <Link to="Home">LinkedIn</Link>
       </div>
     </div>
   );
