@@ -1,35 +1,16 @@
+@import "../Root/Root.css";
 .Home{
     display:grid;
     height: 100vh;
     width: 100vw;
     grid-template-rows: 1fr 7fr 1fr;
-    background-color: #151C35;
     /* min-width: 400px; */
     min-height: 700px; 
-    --primary_color: black;
-    --secondary_color: #CF5C36;
-    --tertiary_color: #00848c;
+    
 }
 
-.primary_color{
-    background-color: var(--primary_color);
-}
-.secondary_color{
-    background-color:  var(--secondary_color);
-}
-.tertiary_color{
-    background-color: var(--tertiary_color);
-}
-.primary_text_color{
-    color:white;
-}
-.secondary_text_color{
-    color: black;
-}
 
-.primary_font{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .Home-Container--1{
     
     display: flex;

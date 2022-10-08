@@ -1,0 +1,27 @@
+:root{
+    --primary_color: black;
+    --secondary_color: #CF5C36;
+    --tertiary_color: #00848c;
+    font-family: Arial, Helvetica, sans-serif;
+    --primary_text_color: white;
+    --secondary_text_color: black;
+}
+
+.primary_color{
+    background-color: var(--primary_color);
+}
+.secondary_color{
+    background-color:  var(--secondary_color);
+}
+.tertiary_color{
+    background-color: var(--tertiary_color);
+}
+.primary_text_color{
+    color:white;
+}
+.secondary_text_color{
+    color: black;
+}
+.primary_font{
+    font-family: Arial, Helvetica, sans-serif;
+}
