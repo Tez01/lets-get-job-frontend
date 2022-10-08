@@ -1,0 +1,8 @@
+.JobForm{
+    display:flex;
+    /* justify-content: start; */
+}
+.JobForm > *{
+    flex-grow: 1;
+    min-width: 0;
+}

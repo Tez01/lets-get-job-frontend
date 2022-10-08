@@ -12,7 +12,7 @@
     
     min-height: 80px;
     display: grid;
-    grid-template-columns: 2.5fr 10fr;
+    grid-template-columns: 3fr 10fr;
     justify-items: center;
     align-items: center;
     background-color: var(--primary_color);
