@@ -1,6 +1,5 @@
 import "../../styles/Home/Card.css";
 import React from "react";
-import { useLinkClickHandler } from "react-router-dom";
 const Card = ({
   buttonName,
   buttonHeight,

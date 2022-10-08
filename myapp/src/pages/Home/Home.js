@@ -1,11 +1,12 @@
 import "../../styles/Home/Home.css";
 import React from "react";
 import Card from "./Card.js";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   const TrackerClicked = () => {
-    console.log("Tracker button clicked");
+    navigate("/Tracker");
   };
 
   return (
