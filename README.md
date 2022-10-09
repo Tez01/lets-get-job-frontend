@@ -1,7 +1,12 @@
 # lets-get-job-frontend
+## Intro
+Frontend for a web application that provide tools that helps a job aspirant in the application process. The main tools include: Job tracker, Portfolio maker, To Do.
 
-Frontend for a web application that helps a job aspirant to keep track of things to get a job.
+## How to use the web application
 
+
+## For Developers
+##How I designed the web application
 ## Docker capabilities:
 
 - Docker custom image build using Dockerfile
