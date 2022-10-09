@@ -6,8 +6,8 @@ Frontend for a web application that provide tools that helps a job aspirant in t
 
 
 ## For Developers
-##How I designed the web application
-## Docker capabilities:
+### How I designed the web application
+### Docker capabilities:
 
 - Docker custom image build using Dockerfile
 - Docker container build using docker-compose up
