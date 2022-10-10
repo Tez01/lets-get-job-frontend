@@ -12,12 +12,11 @@ const Tracker = () => {
       <div className="Tracker_WorkingArea">
         <div className="Tracker_WorkingArea--Item1">History</div>
         <div className="Tracker_WorkingArea--Item2">
-          {/* <Utilites /> */}
+          <div className="Tracker_WorkingArea--Item2--Utilities">Utilities</div>
+
+          {/* <Utilites /> ********* Do later, Add new column button here and relatedd functionality*/}
           {/* <div className="Tracker_WorkingArea--Item2--Utilities">Utilities</div> */}
           <Forms />
-
-          <div className="Tracker_WorkingArea--Item2--Fields">Fields</div>
-          <div className="Tracker_WorkingArea--Item2--Table">Table</div>
         </div>
       </div>
       <div className="Tracker_Footer">Footer</div>
