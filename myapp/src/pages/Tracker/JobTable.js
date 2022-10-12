@@ -1,14 +1,15 @@
 import React from "react";
-import "../../styles/Tracker/Forms.css";
-const Fields = () => {
+import "../../styles/Tracker/JobTable.css";
+const JobTable = () => {
   return (
     // <form className="JobForm">
     //   <input type="number" />
     //   <input type="text" placeholder="Job Title" />
     //   <input type="text" placeholder="Job Url" />
     // </form>
-    <div id="JobTable">
-      <table>
+
+    <div id="JobsContainer">
+      <table id="JobsTable">
         <tr>
           <th>Job Title</th>
           <th>Job Url</th>
@@ -30,4 +31,4 @@ const Fields = () => {
   );
 };
 
-export default Fields;
+export default JobTable;

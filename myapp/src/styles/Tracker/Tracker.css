@@ -4,31 +4,59 @@
     width: 100vw;
     display: grid;
     grid-template-rows: 2fr 17fr 1fr ;
-    
-    margin: 0;
-}
-
-.Tracker_Navbar{
-    
-    min-height: 80px;
-    display: grid;
     grid-template-columns: 3fr 10fr;
-    justify-items: center;
-    align-items: center;
+    color: var(--primary_text_color);
     background-color: var(--primary_color);
+    margin: 0;
+    
 }
+
+.Cool_Border{
+    border-style: outset;
+    border-width: 1px;
+    border-color: var(--primary_color);
+}
+
 .Tracker_Navbar--Item1{
-    justify-self: start;
-    margin-left: 10%;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    min-height: 80px;        
+    background-color: var(--tertiary_color);
+
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+.Tracker_Navbar--Item2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    min-height: 80px;        
+    background-color: var(--tertiary_color);
 }
 
-.Tracker_WorkingArea{
-    display:grid;
-    grid-template-columns: 2.5fr 10fr;
+.Tracker_WorkingArea--Item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+.Tracker_WorkingArea--Item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 
 }
-
 .Tracker_Footer{
-   
+    grid-column-start: 1;
+    grid-column-end: -1;
     min-height: 50px;
 }
+
