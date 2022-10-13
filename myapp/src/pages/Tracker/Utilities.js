@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./Button";
 import "../../styles/Tracker/Utilities.css";
-const Utilities = ({ buttonName }) => {
+const Utilities = ({ buttonName, addButtonClicked }) => {
   return (
     <div className="Utilities">
-      <Button buttonName="Add" />
+      <Button buttonName="Add" buttonClickHandler={addButtonClicked} />
       <Button buttonName={buttonName} />
     </div>
   );

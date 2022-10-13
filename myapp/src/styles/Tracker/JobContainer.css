@@ -1,9 +1,11 @@
-#JobsContainer{
+#JobContainer{
     display: flex;
 }
-#JobsContainer > *{
+#JobContainer > *{
     flex-grow: 1;
 }
 input{
     width:100%
 }
+
+

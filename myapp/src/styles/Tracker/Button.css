@@ -7,3 +7,9 @@ button{
     border-radius: 1rem;
     border-width: 1px;
 }
+
+@media (max-width:600px){
+    button{
+        width:15%;
+    }
+}

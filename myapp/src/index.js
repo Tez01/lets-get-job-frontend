@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import Tracker from "./pages/Tracker/Tracker";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import "./styles/Root/Root.css";
 // Create routes with path / which points to Home component and add an error page for this Home page
 const router = createBrowserRouter([
   {
