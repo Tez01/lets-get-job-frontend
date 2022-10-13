@@ -21,3 +21,6 @@ Frontend for a web application that provide tools that helps a job aspirant in t
 The website is made responsive for mobile devices and pc.
 First developed mobile responsive
 Then added responsiveness for pc using media queries.
+
+## Data flow
+The data flows using state components from top to bottom. Components automatically re-render based on the change in state. `useState` and `useEffect` hooks were extensively used.
