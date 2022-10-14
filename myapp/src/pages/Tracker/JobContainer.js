@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/Tracker/JobContainer.css";
+import Common from "../../utils/CommonNames";
+
 const TRow = () => {
   // for (let )
   // for (let i = 0; i < )
@@ -25,13 +27,14 @@ const TRow = () => {
 };
 
 const JobsContainer = ({ rowCount, id }) => {
+  const commonNames = new Common();
+
   const [rows, addRows] = useState();
   useEffect(() => {
     let newRows = [];
     for (let i = 0; i < rowCount; i++) {
       newRows.push(<TRow key={i} />);
     }
-    console.log(rowCount, newRows);
     addRows(newRows);
   }, [rowCount]);
   return (
@@ -41,8 +44,8 @@ const JobsContainer = ({ rowCount, id }) => {
     //   <input type="text" placeholder="Job Url" />
     // </form>
 
-    <div id="JobContainer">
-      <table id="JobsTable">
+    <div id={`${commonNames.jobTableContainerId}`}>
+      <table id={`${commonNames.jobTableId}`}>
         <thead>
           <tr>
             <th>Job Title</th>
