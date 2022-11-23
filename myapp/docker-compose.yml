@@ -1,5 +1,5 @@
 version: "3.8"
-services: 
+services:
   react-app:
     build: .
     ports:
@@ -8,4 +8,3 @@ services:
       - ./src:/app/src
     env_file:
       - ./.env
-      
